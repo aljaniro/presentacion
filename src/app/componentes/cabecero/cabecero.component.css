@@ -1,0 +1,63 @@
+.hero{
+  height: 100vh;
+  background-image: var(--background), url("https://cdn.pixabay.com/photo/2017/04/05/01/15/ocean-2203720__340.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  position: relative;
+}
+
+.hero .container{
+  padding: 0;
+}
+
+.hero_container{
+  display: flex;
+  height: calc(100vh - 70px);
+  align-items: center;
+  color: white;
+}
+
+.hero_wave{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+}
+
+.hero__text{
+  width: 80%;
+  margin-bottom: 50px;
+}
+
+.hero_titulo{
+  font-size: 3.5rem;
+}
+
+.hero_subtitulo{
+  font-size: 2.0rem;
+  font-weight: 300;
+  margin: 15px 0;
+  margin-bottom: 1em;
+}
+
+.hero_cta{
+
+  display: inline;
+  background: white;
+  padding: 20px 40px;
+
+  color: #667eea;
+  text-decoration: none;
+  border-radius: 40px;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  -ms-border-radius: 40px;
+  -o-border-radius: 40px;
+}
+.hero_cta:hover{
+  color: white;
+  background: goldenrod;
+}
